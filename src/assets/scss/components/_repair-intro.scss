@@ -1,0 +1,36 @@
+.repair-intro {
+  background-color: $yellow;
+}
+
+.image-container {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-image {
+  background-image: url('../images/eeee-min.jpg');
+  height: 700px;
+  background-position: 50%;
+  background-size: contain;
+  scale: (1.15);
+}
+
+.title-container {
+  width: 500px;
+}
+
+.repair-title {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+.checkbox-label {
+  font-size: 20px;
+  color: $black-1 !important;
+}
+
+.repair-btn {
+  background-color: $black !important;
+  color: $white !important ;
+}
