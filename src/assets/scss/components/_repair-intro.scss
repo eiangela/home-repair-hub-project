@@ -2,35 +2,71 @@
   background-color: $yellow;
 }
 
-.image-container {
-  width: 50%;
-  height: auto;
-  overflow: hidden;
-}
-
 .hero-image {
-  background-image: url('../images/eeee-min.jpg');
-  height: 700px;
-  background-position: 50%;
-  background-size: contain;
-  scale: (1.15);
-}
+  width: 50%;
 
-.title-container {
-  width: 500px;
+  //   background-position: 50%;
+  //   background-size: contain;
 }
 
 .repair-title {
   font-size: 3rem;
-  line-height: 1.1;
+  line-height: 1.4;
+  font-family: $font-family-titillium-web;
 }
 
 .checkbox-label {
   font-size: 20px;
   color: $black-1 !important;
+  font-family: $font-family-titillium-web;
 }
 
 .repair-btn {
   background-color: $black !important;
-  color: $white !important ;
+  color: $white !important;
+  width: 265px;
+  height: 65px !important;
+}
+
+/*responsive */
+
+@media ($mobile_device) {
+  .hero-image {
+    width: 100%;
+  }
+  .repair-title {
+    font-size: 1.875rem;
+  }
+  .checkbox-label {
+    font-size: 18px;
+  }
+}
+
+@media ($tablet_device) {
+  .hero-image {
+    width: 100%;
+    scale: (1.2);
+  }
+
+  .repair-title {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+}
+
+@media ($mid_device) {
+  .hero-image {
+    width: 65%;
+  }
+
+  .repair-title {
+    font-size: 2rem;
+  }
+  .checkbox-label {
+    font-size: 16px;
+  }
+  .repair-btn {
+    width: 200px;
+    height: 40px !important;
+  }
 }
