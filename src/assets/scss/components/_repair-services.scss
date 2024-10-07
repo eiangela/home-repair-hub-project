@@ -2,24 +2,54 @@
   background-image: url('@/assets/images/t4r.png');
   width: 100%;
   background-size: cover;
+  background-color: $grey;
+}
+
+.home-repair-title {
+  font-size: 3.4375rem;
+  line-height: 1.1;
+  font-family: $font-family-titillium-web;
+  padding: 120px 30px 30px;
+}
+
+.service-home-image {
+  scale: (1.1);
 }
 
 .icon-repair {
-    background-color: $yellow;
+  background-color: $yellow;
 }
 
 .icon-container {
-    background-color: $yellow; 
-    padding: 20px; 
-    border-radius: 100%;
+  background-color: $yellow;
+  padding: 20px;
+  border-radius: 100%;
 }
 .icon-img {
-    width: 50px; 
-    height: 50px; 
-  }
+  width: 50px;
+  height: 50px;
+}
 
-  .repair-title {
-    padding: 105px 30px 30px;
-    color: $white;
-    font-family: $font-family-titillium-web;
+.repair-title-service {
+  padding: 105px 30px 30px;
+  color: $white;
+  font-family: $font-family-titillium-web;
+  font-size: 3.4375rem;
+}
+
+.repair-subtitle {
+  font-family: $font-family-open-sans;
+  font-size: 20px;
+}
+
+.repair-description {
+  font-family: $font-family-open-sans;
+  font-size: 17px;
+}
+
+@media ($mobile_device) {
+  .repair-title-service {
+    padding-top: 50px;
+    font-size: 2.25rem;
   }
+}

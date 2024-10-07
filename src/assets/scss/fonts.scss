@@ -1,34 +1,66 @@
+$font-titillium-path: '@/assets/fonts/titillium/';
+$font-open-sans-path: '@/assets/fonts/opens-sans/';
+
 @font-face {
   font-family: 'Titillium Web';
-  src: url('@/assets/fonts/TitilliumWeb-ExtraLight.ttf') format('truetype');
+  src: url(#{$font-titillium-path}TitilliumWeb-ExtraLight.ttf) format('truetype');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Titillium Web';
-  src: url('@/assets/fonts/TitilliumWeb-Light.ttf') format('truetype');
+  src: url(#{$font-titillium-path}TitilliumWeb-Light.ttf) format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Titillium Web';
-  src: url('@/assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
+  src: url(#{$font-titillium-path}TitilliumWeb-Regular.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Titillium Web';
-  src: url('@/assets/fonts/TitilliumWeb-SemiBold.ttf') format('truetype');
+  src: url(#{$font-titillium-path}TitilliumWeb-SemiBold.ttf) format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-    font-family: 'Titillium Web';
-    src: url('@/assets/fonts/TitilliumWeb-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-family: 'Titillium Web';
+  src: url(#{$font-titillium-path}TitilliumWeb-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Open Sans
+@font-face {
+  font-family: 'Open Sans';
+  src: url(#{$font-open-sans-path}OpenSans-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(#{$font-open-sans-path}OpenSans-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(#{$font-open-sans-path}OpenSans-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(#{$font-open-sans-path}OpenSans-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

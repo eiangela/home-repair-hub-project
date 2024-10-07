@@ -1,0 +1,29 @@
+.home-repair-services {
+  background-image: url('@/assets/images/421.png');
+  width: 100%;
+  background-color: $black-1;
+}
+
+.home-subtitle {
+  font-family: $font-family-titillium-web;
+  font-size: 30px !important;
+  white-space: normal !important; /* Permite a quebra de linha */
+}
+
+.home-description {
+  font-family: $font-family-open-sans;
+  line-height: 1.7 !important;
+}
+
+@media ($mobile_device) {
+  .home-repair-title {
+    font-size: 1.875rem !important;
+    padding-top: 50px;
+  }
+}
+
+@media($tablet_device) {
+.home-card {
+    height: 600px !important;
+}
+}
