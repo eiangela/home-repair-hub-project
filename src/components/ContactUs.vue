@@ -1,17 +1,17 @@
 <template>
   <v-container>
-    <v-row>
-      <v-col cols="12" sm="6" md="4">
-        <p>E-mail</p>
-        <p>description</p>
+    <v-row >
+      <v-col cols="12" sm="6" md="4" class="d-flex flex-column justify-center">
+        <p class="contact-title font-weight-bold">E-mail</p>
+        <p class="contact-description">Email us using our simple form and we'll respond within 10 working days.</p>
         <v-text-field> Input </v-text-field>
         <v-btn>Submit</v-btn>
       </v-col>
 
-      <v-col v-for="(contact, i) in contactUs" :key="i" cols="12" sm="6" md="4">
-        <v-img :src="contact.icon" width="50"></v-img>
-        <p>{{ contact.title }}</p>
-        <p>{{ contact.description }}</p>
+      <v-col v-for="(contact, i) in contactUs" :key="i" cols="12" sm="6" md="4" >
+        <v-img :src="contact.icon" width="50" class="text-center"></v-img>
+        <p class="contact-title font-weight-bold">{{ contact.title }}</p>
+        <p class="contact-description">{{ contact.description }}</p>
         <v-btn>{{ contact.infoCont }}</v-btn>
       </v-col>
     </v-row>

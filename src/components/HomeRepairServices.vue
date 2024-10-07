@@ -4,8 +4,8 @@
       <h3 class="home-repair-title text-center mb-5">Home Repair Services</h3>
     </div>
     <v-row>
-      <v-col cols="12" sm="4" md="4" v-for="(home, i) in homeRepairService" :key="i">
-        <v-card class="pa-5 home-card"  rounded="0" elevation="5">
+      <v-col cols="12" sm="6" md="4" v-for="(home, i) in homeRepairService" :key="i">
+        <v-card class="pa-5 home-card" rounded="0" elevation="5">
           <v-card-title class="font-weight-bold text-center home-subtitle">
             <v-img
               :src="home.image"

@@ -22,8 +22,14 @@
   }
 }
 
-@media($tablet_device) {
-.home-card {
+@media ($tablet_device) {
+  .home-card {
     height: 600px !important;
+  }
 }
+
+@media ($mid_device) {
+  .home-card {
+    height: 600px !important;
+  }
 }
