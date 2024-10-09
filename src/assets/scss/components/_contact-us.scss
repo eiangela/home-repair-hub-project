@@ -6,8 +6,15 @@
 .contact-title {
   color: $white;
   font-size: 1.875rem;
+  font-family: $font-family-titillium-web;
 }
 
 .contact-description {
   color: $white;
+  font-family: $font-family-open-sans !important;
+}
+
+.contact-btn {
+  background-color: $yellow !important;
+  color: $black;
 }
